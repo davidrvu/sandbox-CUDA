@@ -1,0 +1,16 @@
+﻿Build started 3/3/2017 11:15:07.
+     1>Project "E:\sandbox-CUDA\cppReadJSON\readJSON_vs2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./ /IC:\CUDA_toolkit\/include /IC:\CUDA_samples\common\inc /I"C:\Program Files\ArrayFire\v3\include" /I/ /IC:/boost_1_61_0 /Zi /nologo /W3 /WX- /O2 /GL /D WIN32 /D _MBCS /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64/Release/" /Fd"x64/Release/vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64/Release/readJSON.exe" /NOLOGO /LIBPATH:C:\CUDA_toolkit\lib\x64 /LIBPATH:"C:\boost_1_61_0\lib64-msvc-12.0" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"x64/Release/readJSON.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"x64/Release/readJSON.lib" /MACHINE:X64 x64/Release/main.obj
+         Generating code
+     1>e:\sandbox-cuda\cppreadjson\main.cpp(34): warning C4715: 'getParametersBoost' : not all control paths return a value
+         Finished generating code
+         readJSON_vs2013.vcxproj -> E:\sandbox-CUDA\cppReadJSON\x64/Release/readJSON.exe
+     1>Done Building Project "E:\sandbox-CUDA\cppReadJSON\readJSON_vs2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.89
