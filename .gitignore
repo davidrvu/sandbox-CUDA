@@ -4,3 +4,16 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# python bin stuff
+*~
+*.pyc
+*.pyo
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.pdb
+
+# Matlab
+*.asv
