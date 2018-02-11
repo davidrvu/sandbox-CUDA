@@ -25,3 +25,30 @@ SM53 – Tegra TX1
 SM60 – GP100/Pascal P100 – DGX-1 (Generic Pascal)  
 SM61 – GTX 1080, 1070, 1060  
 SM62 – Future versions – Unknown for now, but opinions vary between the new Drive-PX2 or the GTX 1080Ti and Titan-P  
+
+
+- - -
+## Eigenvalues from Samples
+From /usr/local/cuda-7.5/samples/6_Advanced/eigenvalues
+
+	OJO: eigenvalues of a symmetric and tridiagonal real matrix using CUDA. (NO ES PARA TODA MATRIZ SIMETRICA!!!)
+
+- - -
+ALIASES
+====================
+	$gedit .bashrc
+LISTA DE ALIASES UTILES
+
+	# some more ls aliases
+	alias ll='ls -alF'
+	alias la='ls -A'
+	alias l='ls -CF'
+	alias clc="clear"
+	alias david="dvalenzuela@geoinnova.cl"
+	alias opn="nautilus ."
+	alias readme="subl readme.txt"
+	alias octa="octave --force-gui"
+	alias hack_code="firefox hackertyper.net"
+	alias bitbucket="firefox https://bitbucket.org/davidinj/cuda_codes"
+
+- - -
