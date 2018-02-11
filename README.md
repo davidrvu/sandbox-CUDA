@@ -44,11 +44,10 @@ LISTA DE ALIASES UTILES
 	alias la='ls -A'
 	alias l='ls -CF'
 	alias clc="clear"
-	alias david="dvalenzuela@geoinnova.cl"
 	alias opn="nautilus ."
 	alias readme="subl readme.txt"
 	alias octa="octave --force-gui"
 	alias hack_code="firefox hackertyper.net"
-	alias bitbucket="firefox https://bitbucket.org/davidinj/cuda_codes"
+	alias bitbucket="firefox https://github.com/davidrvu/sandbox-CUDA"
 
 - - -
